@@ -9,17 +9,10 @@ class ExampleCard extends React.Component{
         
         <div className='exampleDiv'>
         <Roll>
-        <a href="page1.html#pitchVideo" className="sample-img_1">
-           
-          <h6 className='white'>App Creation</h6>
-          <h6 className='white'>Figma/JavaScript</h6>
-        </a>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/GJC1-vjYsdE" frameborder="0" id="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Roll>
         <Bounce>
-        <a href="page1.html#esriText" className="sample-img_2">
-          <h6 className='white'>ESRI Story Map</h6>
-          <h6 className='white'>ArcMap Online/R</h6>
-        </a>
+        <iframe id="arcmap" className='arcMap' src="https://storymaps.arcgis.com/stories/6471821f9aeb4a3b9ba2aa43c2ee1690?header" width="100%" height="700px" frameBorder="0" allowFullScreen allow="geolocation"></iframe>
         </Bounce>
         </div>
     

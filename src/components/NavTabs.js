@@ -19,14 +19,14 @@ function NavTabs() {
           to="/work"
           className={location.pathname === "/work" ? "nav-link active" : "nav-link"}
         >
-          Work
+          <i class="fas fa-code-branch"></i>
         </Link>
       </li>
       <li>
-      <a className="nav-link active : nav-link" href="https://www.linkedin.com/in/zachary-kathe-621415189/">LinkedIn</a>
+      <a className="nav-link active : nav-link" href="https://www.linkedin.com/in/zachary-kathe-621415189/"><i class="fab fa-linkedin"></i></a>
       </li>
       <li>
-      <a className="nav-link active : nav-link" href="https://github.com/ZacharyKathe">GitHub</a>
+      <a className="nav-link active : nav-link" href="https://github.com/ZacharyKathe"><i class="fab fa-github-square"></i></a>
       </li>
     
     </ul>

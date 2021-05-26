@@ -1,6 +1,6 @@
 import React from "react";
 import Roll from 'react-reveal/Roll'
-import Bounce from 'react-reveal'
+import Jump from 'react-reveal/Jump'
 
 class Work extends React.Component {
   render(){
@@ -8,11 +8,15 @@ class Work extends React.Component {
   return (
     <div>
       <div className='parallaxTwo'>
+        <Jump>
         <h6 className='recentAch'>
           Scroll Down
         </h6>
+        </Jump>
       </div>
+      
      <div className='workDiv'>
+     
         <Roll>
          
         <a href="https://zacharykathe.github.io/passwordGenerator/" className="sample-img_5">
@@ -30,7 +34,8 @@ class Work extends React.Component {
         </a>
         </Roll>
         </div>
-        <div className='parallaxTwo'></div> 
+        <div className='parallaxTwo'></div>
+         
     </div>
   );
 
