@@ -6,7 +6,7 @@ class Home extends React.Component {
   render(){
   return (
     <div>
-     <Rotate> <h1>Zachary Kathe</h1></Rotate>
+     <Rotate> <h2 className='Zachary'><h2>zacharykathe@gmail.com</h2>  480-252-6428</h2></Rotate>
       <Zoom>
         <div className='parallax'>
         <Jump><h3 className='recentAch'>Nice To Meet You!</h3></Jump>

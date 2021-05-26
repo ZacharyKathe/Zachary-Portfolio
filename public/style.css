@@ -19,6 +19,11 @@
     background-color: rgb(47, 19, 83);
 }
 
+.Zachary{
+    display: flex;
+    justify-content: space-around;
+}
+
 .parallax{
     background-image: url('./images/coverGolf.PNG');
     height: 100vh;
@@ -288,6 +293,10 @@
     }
     .discProj{
         padding: 5px;
+    }
+
+    .Zachary{
+        flex-direction: column;
     }
 
     .introPara{
