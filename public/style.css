@@ -1,22 +1,33 @@
 .appDiv{
     display: flex;
     justify-content: space-around;
-    height: 450px;
-    background-color: rgb(47, 19, 83);
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+    
     
 }
 .workDiv{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    height: 320px;
-    background-color: rgb(47, 19, 83);  
+    align-items: center;
+    height: 800px;
+      
 }
 
 .exampleDiv{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    height: 850px;
-    background-color: rgb(47, 19, 83);
+    align-items: center;
+    height: 1000px;
+    
+}
+
+.youTubePitch{
+    margin-top: 35px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .Zachary{
@@ -65,19 +76,23 @@
     padding: 15px;
     color: rgb(47, 19, 83);
     font-size: 18px;
+    
+    
 }
 .discProj{
     display: flex;
     justify-content: center;
     color: white;
     font-size: 22px;
+    margin-left: 10px;
 }
 
 
 .sample-img_4{
     background-image: url("./images/travelbuddy2.PNG");
     background-size: cover;
-    width: 45%;
+    width: 80vw;
+    height: 380px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -86,6 +101,7 @@
     border-color: white;
     margin: 3px;
     text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
 }
 .white{
     color: white;
@@ -98,13 +114,15 @@
 .sample-img_6{
     background-image: url("./images/gearWise.JPG");
     background-size: cover;
-    width: 45%;
+    width: 80vw;
+    height: 380px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    margin: 3px;
+    margin: 5px;
     text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .sample-img_7{
@@ -113,10 +131,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 45vw;
+    width: 80vw;
     justify-content: flex-end;
     height: 300px;
-    text-decoration: none;  
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;  
 }
 
 .sample-img_1{
@@ -154,16 +174,33 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    width: 45vw;
+    width: 80vw;
     border-color: white;
     height: 300px;
     text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.sample-img_8{
+    background-image: url('./images/kinetik.PNG');
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 80vw;
+    border-color: white;
+    height: 400px;
+    text-decoration: none;
+    
 }
 
 .arcMap{
     padding: 10px;
     margin-top: 100px;
-    background-color: rgb(47, 19, 83);
+    box-shadow: 5px 10px 8px #888888;
 }
 
 
@@ -275,6 +312,13 @@
         padding: 0px;
         height: 400px; 
     }
+    .sample-img_8{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+        background-size: contain; 
+    }
     
   }
   
@@ -314,6 +358,7 @@
         margin: 0px;
         padding: 0px;
         height: 400px;
+        background-position: center;
     }
     .sample-img_1{
         width: 100vw;
@@ -339,6 +384,13 @@
         margin: 0px;
         padding: 0px;
         height: 450px; 
+    }
+    .sample-img_8{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+        background-size: contain; 
     }
     
   }

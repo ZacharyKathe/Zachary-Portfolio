@@ -18,11 +18,7 @@ function App() {
         
       </div>
     </Router>
-    <ProjectCard/>
-    <div className='parallaxTwo'>
-      <h6 className='discProj'>These next two apps were made while I was an undergrad at UW.</h6>
-    </div>
-    <ExampleCard/>
+    
     </div>
   );
 }

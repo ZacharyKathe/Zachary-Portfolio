@@ -1,6 +1,7 @@
 import React from "react";
-import Roll from 'react-reveal/Roll'
-import Jump from 'react-reveal/Jump'
+import Roll from 'react-reveal/Roll';
+import Jump from 'react-reveal/Jump';
+import ExampleCard from "../ExampleCard";
 
 class Work extends React.Component {
   render(){
@@ -34,8 +35,12 @@ class Work extends React.Component {
         </a>
         </Roll>
         </div>
-        <div className='parallaxTwo'></div>
-         
+        <div className='parallaxTwo'>
+        <h6 className='recentAch'>
+          Below is undergraduate work
+        </h6>
+        </div>
+        <ExampleCard />
     </div>
   );
 

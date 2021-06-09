@@ -2,12 +2,13 @@ import React from "react";
 import Zoom from "react-reveal/Zoom"
 import Rotate from 'react-reveal/Rotate'
 import Jump from 'react-reveal/Jump'
+import ProjectCard from '../ProjectCard'
 class Home extends React.Component {
   render(){
   return (
     <div>
      <Rotate> <h2 className='Zachary'><h2>zacharykathe@gmail.com</h2>  480-252-6428</h2></Rotate>
-      <Zoom>
+      
         <div className='parallax'>
         <Jump><h3 className='recentAch'>Nice To Meet You!</h3></Jump>
         <h3 className='recentAch'>Scroll Down</h3>
@@ -24,10 +25,16 @@ class Home extends React.Component {
       and demonstrate my abilities with web-development.
       </p>
       <div className='parallax'>
-        <h6 className="discProj">The Following apps I made in the University of Washington's full-stack web development program.</h6>
+        <h6 className="discProj">The Following apps where group projects in the University of Washington's full-stack web development program.</h6>
       </div>
-      </Zoom>
       
+      <ProjectCard/>
+      <div className='parallaxTwo'>
+      <a href="http://kinetikapp.herokuapp.com/" className="sample-img_8">
+          <h6 className='white'>Kinetik App</h6>
+          <h6 className='white'>React.js/JavaScript/CSS/mySQL/Bootstrap</h6>
+        </a>
+    </div>
     </div>
   );
  }
