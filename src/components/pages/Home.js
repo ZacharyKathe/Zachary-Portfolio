@@ -10,7 +10,8 @@ class Home extends React.Component {
      <Rotate> <h2 className='Zachary'><h2>zacharykathe@gmail.com</h2>  480-252-6428</h2></Rotate>
       
         <div className='parallax'>
-        <Jump><h3 className='recentAch'>Nice To Meet You!</h3></Jump>
+        <Jump><h3 className='recentAch'> Hello, nice to meet you!</h3></Jump>
+        <h3 className='recentAch'>I'm Zachary & I create full-stack applications</h3>
         <h3 className='recentAch'>Scroll Down</h3>
         </div>
         
