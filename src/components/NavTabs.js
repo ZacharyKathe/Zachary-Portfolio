@@ -28,6 +28,9 @@ function NavTabs() {
       <li>
       <a className="nav-link active : nav-link" href="https://github.com/ZacharyKathe"><i class="fab fa-github-square"></i></a>
       </li>
+      <li>
+        <a className="nav-link active : nav-link" href="https://drive.google.com/file/d/1LdIBXGROB8Z9Iw9NJZA1YYqUIovxWrJq/view?usp=sharing">Resume</a>
+      </li>
     
     </ul>
     

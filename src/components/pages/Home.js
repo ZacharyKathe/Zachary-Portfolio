@@ -19,9 +19,8 @@ class Home extends React.Component {
       I am a recent graduate from the University of Washington specializing 
       in Geographic Information Systems and Informatics. After graduation, I was 
       accepted into the UW professional Python certification program. This highly 
-      in-depth program goes over Django and server API's. After 3-months of doing Python, I realized 
-      I wanted to develop web applications, so I switched programs. I
-      enrolled in UW's full-stack web development bootcamp to hone in on my programming skills.
+      in-depth program goes over Django and server API's. After 3-months of doing Python, I found a calling in web development, so I switched programs at the University. I
+      enrolled in UW's full-stack web development bootcamp to hone in on my programming skills. 
       I am seeking a full-time career with a company where I can continuously learn, grow, 
       and demonstrate my abilities with web-development.
       </p>
@@ -33,7 +32,7 @@ class Home extends React.Component {
       <div className='parallaxTwo'>
       <a href="http://kinetikapp.herokuapp.com/" className="sample-img_8">
           <h6 className='white'>Kinetik App</h6>
-          <h6 className='white'>React.js/JavaScript/CSS/mySQL/Bootstrap</h6>
+          <h6 className='white'>Technology- React.js| JavaScript| CSS| mySQL| Bootstrap|</h6>
         </a>
     </div>
     </div>

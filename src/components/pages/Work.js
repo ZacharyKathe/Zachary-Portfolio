@@ -22,7 +22,7 @@ class Work extends React.Component {
          
         <a href="https://zacharykathe.github.io/passwordGenerator/" className="sample-img_5">
           <h6 className='white'>Password Generator</h6>
-          <h6 className='white'>JavaScript/CSS/html</h6>
+          <h6 className='white'> Technology- JavaScript| CSS| html|</h6>
         </a>
         
         </Roll>
@@ -31,7 +31,7 @@ class Work extends React.Component {
         
         <a href="https://blogspotz444.herokuapp.com/" className="sample-img_7">
           <h6 className='white'>BlogSpotz</h6>
-          <h6 className='white'>Node.js/MySQL-DB/CSS</h6>
+          <h6 className='white'> Technology- jQuery| MySQL-DB| CSS| bcrypt|</h6>
         </a>
         </Roll>
         </div>
