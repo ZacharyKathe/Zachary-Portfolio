@@ -125,6 +125,7 @@
     color: white;
     font-size: 22px;
     margin-left: 10px;
+    padding: 8px;
 }
 
 .sample-img_4{
@@ -149,7 +150,10 @@
     border-radius: 4px;
     
 }
-
+.white:hover{
+    background-color: white;
+    color: rgb(47, 19, 83);
+}
 .sample-img_6{
     background-image: url("./images/gearwiseRightSize.PNG");
     background-size: cover;
