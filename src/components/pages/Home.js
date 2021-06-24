@@ -30,6 +30,8 @@ class Home extends React.Component {
       
       <ProjectCard/>
       <div className='parallaxTwo'>
+        <h4 className='kinetikExplain'>Kinetik tracks your goals and allows you to create a group that you can invite friends too.</h4>
+        <h4 className='kinetikExplain'>Share a common goal with your group and give encouragement!</h4>
       <a href="http://kinetikapp.herokuapp.com/" className="sample-img_8">
           <h6 className='white'>Kinetik App</h6>
           <h6 className='white'>Technology- React.js| JavaScript| CSS| mySQL| Bootstrap|</h6>
