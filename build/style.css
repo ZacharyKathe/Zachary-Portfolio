@@ -1,0 +1,462 @@
+.appDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+    
+    
+}
+
+.nav-tabs{
+    background-color: beige;
+}
+.workDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1100px;
+      
+}
+
+.exampleDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+    
+}
+
+.youTubePitch{
+    margin-top: 35px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.Zachary{
+    display: flex;
+    justify-content: space-around;
+}
+
+.resumepic{
+    border-radius: 100px;
+}
+
+.parallax{
+    background-image: url('./images/codingscrn.jpg.png');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallaxTwo{
+    background-image: url('./images/paralax2.PNG');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentAch{
+    background-color: rgb(47, 19, 83);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.checkmarkdata{
+    background-color: rgb(47, 19, 83);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.checkmarks{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+
+.introPara{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgb(47, 19, 83);
+    font-size: 18px;
+    
+    
+}
+.explainGearWise{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: rgb(47, 19, 83);
+    font-size: 18px;
+}
+.travelBuddyExplain{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    margin-top: 30px;
+    color: rgb(47, 19, 83);
+    font-size: 18px;
+    border-top: solid black;
+}
+.kinetikExplain{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    background-color: rgb(47, 19, 83);
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.passwordGenExplain{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: rgb(47, 19, 83);
+    font-size: 20px;
+}
+.blogSpotzEx{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: rgb(47, 19, 83);
+    font-size: 20px;
+}
+.discProj{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 19, 83);
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.sample-img_4{
+    background-image: url("./images/travelbuddy2.PNG");
+    background-size: cover;
+    width: 80vw;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: white;
+    margin: 3px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
+}
+.white{
+    color: white;
+    background-color: rgb(47, 19, 83);
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+.white:hover{
+    background-color: white;
+    color: rgb(47, 19, 83);
+}
+.sample-img_6{
+    background-image: url("./images/gearwiseRightSize.PNG");
+    background-size: cover;
+    width: 80vw;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 5px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.sample-img_7{
+    background-image: url("./images/blogSpotz1.PNG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80vw;
+    justify-content: flex-end;
+    height: 300px;
+    margin-top: 15px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;  
+}
+
+.sample-img_1{
+    background-image: url("./images/app_creation.JPG");
+    background-size: cover;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: white;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.sample-img_2{
+    background-image: url("./images/esri_story_map.JPG");
+    background-size: cover;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 4px solid;
+    border-color: white;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.sample-img_5{
+    background-image: url("./images/password_generator.JPG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 80vw;
+    border-color: white;
+    height: 300px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.sample-img_8{
+    background-image: url('./images/kinetik.PNG');
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 80vw;
+    border-color: white;
+    height: 400px;
+    text-decoration: none;
+    
+}
+
+.arcMap{
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+@media screen and (max-width: 992px) {
+    .appDiv {
+      flex-direction: column;
+    }
+    .exampleDiv{
+        flex-direction: column;
+    }
+    .workDiv{
+        flex-direction: column;
+        height: 550px;
+        
+    }
+    
+    .introPara{
+        height: 250px;
+    }
+
+    .sample-img_4{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_6{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_1{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_2{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_5{
+        width: 100vw;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .sample-img_7{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px; 
+    }
+  }
+
+  /* Large smartphones - navbar changes color */
+  
+  @media screen and (max-width: 768px) {
+    .appDiv {
+    flex-direction: column;
+    }
+    .exampleDiv{
+        flex-direction: column;
+    }
+    .workDiv{
+        flex-direction: column;
+    }
+    
+    .introPara{
+        height: 300px;
+       }
+    
+    .sample-img_4{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_6{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_1{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_2{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_5{
+        width: 100vw;
+        margin-bottom: 50px;
+        padding: 0px;
+        height: 400px;
+        
+    }
+    .sample-img_7{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px; 
+    }
+    .sample-img_8{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+        background-size: contain; 
+    }
+    
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  
+  @media screen and (max-width: 576px) {
+    .appDiv {
+    
+      flex-direction: column;
+    }
+    .exampleDiv{
+        flex-direction: column;
+    }
+    .workDiv{
+      flex-direction: column;
+    }
+    .discProj{
+        padding: 5px;
+    }
+
+    .Zachary{
+        flex-direction: column;
+    }
+
+    .introPara{
+     height: 400px;
+    }
+
+    .sample-img_4{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_6{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+        background-position: center;
+    }
+    .sample-img_1{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_2{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+    .sample-img_5{
+        width: 100vw;
+        margin-bottom: 50px;
+        height: 450px;
+        
+        
+    }
+    .sample-img_7{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 450px; 
+    }
+    .sample-img_8{
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 400px;
+        background-size: contain; 
+    }
+    
+  }
