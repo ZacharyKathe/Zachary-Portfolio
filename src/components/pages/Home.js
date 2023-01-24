@@ -35,7 +35,7 @@ class Home extends React.Component {
           <h6 className='white'>Technology- React.js| JavaScript| CSS| mySQL| Bootstrap|</h6>
         </a>
     </div>
-    <h2 className='Zachary'>zacharykathe@gmail.com  480-252-6428</h2>
+    <h2 className='Zachary'> zacharykathe@gmail.com</h2>  <h2 className='Zachary'>480-252-6428</h2>
     </div>
     
   );
