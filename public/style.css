@@ -7,6 +7,10 @@
     
     
 }
+
+.nav-tabs{
+    background-color: beige;
+}
 .workDiv{
     display: flex;
     flex-direction: column;
@@ -35,8 +39,12 @@
     justify-content: space-around;
 }
 
+.resumepic{
+    border-radius: 100px;
+}
+
 .parallax{
-    background-image: url('./images/coverGolf.PNG');
+    background-image: url('./images/codingscrn.jpg.png');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -66,7 +74,22 @@
     color: white;
     padding: 8px;
     border-radius: 3px;
-    opacity: 0.7;
+}
+
+.checkmarkdata{
+    background-color: rgb(47, 19, 83);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.checkmarks{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
 }
 
 .introPara{
