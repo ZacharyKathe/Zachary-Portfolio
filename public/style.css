@@ -48,7 +48,7 @@
 }
 
 .parallax{
-    background-image: url('./images/codingscrn.jpg.png');
+    background-image: url('images/codingscrn.jpg.png');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -61,7 +61,7 @@
 }
 
 .parallaxTwo{
-    background-image: url('./images/paralax2.PNG');
+    background-image: url('images/paralax2.PNG');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -155,7 +155,7 @@
 }
 
 .sample-img_4{
-    background-image: url("./images/travelbuddy2.PNG");
+    background-image: url("images/travelbuddy2.PNG");
     background-size: cover;
     width: 80vw;
     height: 380px;
@@ -181,7 +181,7 @@
     color: rgb(47, 19, 83);
 }
 .sample-img_6{
-    background-image: url("./images/gearwiseRightSize.PNG");
+    background-image: url("images/gearwiseRightSize.PNG");
     background-size: cover;
     width: 80vw;
     height: 380px;
@@ -195,7 +195,7 @@
 }
 
 .sample-img_7{
-    background-image: url("./images/blogSpotz1.PNG");
+    background-image: url("images/blogSpotz1.PNG");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -209,7 +209,7 @@
 }
 
 .sample-img_1{
-    background-image: url("./images/app_creation.JPG");
+    background-image: url("images/app_creation.JPG");
     background-size: cover;
     width: 45%;
     display: flex;
@@ -223,7 +223,7 @@
 }
 
 .sample-img_2{
-    background-image: url("./images/esri_story_map.JPG");
+    background-image: url("images/esri_story_map.JPG");
     background-size: cover;
     width: 45%;
     display: flex;
@@ -237,7 +237,7 @@
 }
 
 .sample-img_5{
-    background-image: url("./images/password_generator.JPG");
+    background-image: url("images/password_generator.JPG");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -251,7 +251,7 @@
 }
 
 .sample-img_8{
-    background-image: url('./images/kinetik.PNG');
+    background-image: url('images/kinetik.PNG');
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
