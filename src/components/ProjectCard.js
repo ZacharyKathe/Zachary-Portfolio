@@ -11,7 +11,7 @@ class ProjectCard extends React.Component{
           </h4>
           <h4 className='explainGearWise'>This app is undergoing a server change so for now the link will take you to the source code on Github.</h4>
         <Roll>
-        <a  href="https://gear-wise.herokuapp.com/" className="sample-img_6">
+        <a  href="https://github.com/ZacharyKathe/gear-tracker" className="sample-img_6">
           <h6 className='white'>GearWise website</h6>
           <h6 className='white'> Technology- heroku| JavaScript| CSS| html| mySQL-DB|</h6>
         </a>
