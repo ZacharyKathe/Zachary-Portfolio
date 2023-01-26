@@ -9,8 +9,12 @@
 }
 
 .nav-tabs{
-    background-color: beige;
+    background-color: rgb(62, 62, 62);;
+    height: 10vh;
+
 }
+
+
 .workDiv{
     display: flex;
     flex-direction: column;
@@ -70,15 +74,14 @@
 }
 
 .recentAch{
-    background-color: rgb(47, 19, 83);
-    color: white;
+    color: #45bfe6;
     padding: 8px;
     border-radius: 3px;
 }
 
 .checkmarkdata{
-    background-color: rgb(47, 19, 83);
-    color: white;
+    
+    color: #45bfe6;
     padding: 8px;
     border-radius: 3px;
 }
@@ -89,7 +92,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(62, 62, 62);
 }
 
 .introPara{
@@ -105,7 +108,7 @@
 .explainGearWise{
     display: flex;
     padding: 10px;
-    justify-content: center;
+    text-align: center;
     color: rgb(47, 19, 83);
     font-size: 18px;
 }
@@ -144,8 +147,8 @@
 .discProj{
     display: flex;
     justify-content: center;
-    background-color: rgb(47, 19, 83);
-    color: white;
+    background-color: rgb(62, 62, 62);
+    color: #45bfe6;
     font-size: 22px;
     margin-left: 10px;
     padding: 8px;

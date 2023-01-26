@@ -18,7 +18,7 @@ class Home extends React.Component {
         <div className="checkmarks">
         <Zoom><h3 className='checkmarkdata'>✔ I create full-stack applications</h3></Zoom>
         <Zoom><h3 className='checkmarkdata'>✔ Ecommerce websites</h3></Zoom>
-        <Zoom><h3 className='checkmarkdata'>✔ Experience with Merchant gateway setup & integration</h3></Zoom>
+        <Zoom><h3 className='checkmarkdata'>✔ Experience with merchant gateway setup & integration</h3></Zoom>
         <Zoom><h3 className='checkmarkdata'>✔ Esri ArcGIS Portal administator for the City of Lake Stevens</h3></Zoom>
         </div>
 

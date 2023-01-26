@@ -2,7 +2,7 @@
   "name": "zachary-kathe-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZacharyKathe.github.io/Zachary-Portfolio",
+  "homepage": "https://main.d11hjfqxosu3px.amplifyapp.com/",
   "dependencies": {
     "@inlet/react-pixi": "^6.5.2",
     "@testing-library/jest-dom": "^5.12.0",
@@ -19,8 +19,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

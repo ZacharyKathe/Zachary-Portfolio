@@ -22,7 +22,7 @@ function NavTabs() {
           <i class="fas fa-code-branch"></i>
         </Link>
       </li>
-      <li>
+      <li className="linkedIn">
       <a className="nav-link active : nav-link" href="https://www.linkedin.com/in/zachary-kathe-621415189/"><i class="fab fa-linkedin"></i></a>
       </li>
       <li>
