@@ -155,7 +155,7 @@
 }
 
 .sample-img_4{
-    background-image: url("images/travelbuddy2.PNG");
+    background-image: url('images/travelbuddy2.PNG');
     background-size: cover;
     width: 80vw;
     height: 380px;
@@ -181,7 +181,7 @@
     color: rgb(7, 40, 12);
 }
 .sample-img_6{
-    background-image: url("public/images/gearwiseRightSize.PNG");
+    background-image: url('images/gearwiseRightSize.PNG');
     background-size: cover;
     width: 80vw;
     height: 380px;
@@ -237,7 +237,7 @@
 }
 
 .sample-img_5{
-    background-image: url("/public/images/password_generator.JPG");
+    background-image: url("images/password_generator.JPG");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -251,7 +251,7 @@
 }
 
 .sample-img_8{
-    background-image: url('/public/images/kinetik.PNG');
+    background-image: url('images/kinetik.PNG');
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
